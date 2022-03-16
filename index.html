@@ -19,7 +19,11 @@ card_images:
   first_image: /images/content-creation.jpg
   second_image: /images/social-media.jpg
   third_image: /images/consultations.jpg
-email-address: md@kingcode.uk
+form:
+  email-address: md@kingcode.uk
+  first-title: basic info
+  text-option-1: Your Name
+
 ---
 
 <section class="padded-top padded-sides banner tall-100 grid center" style="background-image: url('{{page.banner_image}}');">
@@ -120,12 +124,12 @@ email-address: md@kingcode.uk
 
         <div class="grid padded-sides">
         <div class="col-2_sm-12 relative">
-          <h3 class="sm-bold vertical-form-text editable"> basic info </h3>
+          <h3 class="sm-bold vertical-form-text editable"> {{page.form.first-title}}</h3>
         </div>
 
         <div class="col-10_sm-12 form-padded">
           <div class="floating-input">
-            <input type="text" name="name" placeholder="Your Name" class="input-text" required="">
+            <input type="text" name="{{page.form.text-option-1}}" placeholder="{{page.form.text-option-1}}" class="input-text" required="">
             <label class="input-label">Your Name</label>
           </div>
 
