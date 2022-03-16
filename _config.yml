@@ -1,12 +1,33 @@
 page_blocks: []
 _array_structures:
-  sections:
+  content-block:
     values:
-      - label: brown background
-        icon: text
-        value:
-          _section-type: blog-featured-text
-          blog-featured-text-html:
       - label: banner image
         icon: image
         value:
+          _section-type: banner_image
+          banner-image.html:
+          hero:
+      - label: arched image with text
+        icon: image
+        value:
+          _section-type: arched-image-with-text
+          arched-image-with-text.html:
+          arched_image:
+          heading:
+          text:
+      - label: projects
+        icon: projects
+        value:
+          _section-type: projects
+          projects.html:
+          hero:
+          project.first_image:
+          first-subheader:
+          first-text:
+          second_image:
+          second-subheader:
+          second-text:
+          third_image:
+          third-subheader:
+          third-text:
