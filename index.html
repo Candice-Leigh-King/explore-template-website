@@ -47,6 +47,8 @@ content-blocks:
       text: Lorem ipsum dolor sit amet, consectetur adipisicing elit
       symbols: ★★★★★
       ending: Abby Tomlinson, Senior Associate Manager, Content & UX | The Hershey Company
+  - _section-type: form
+    heading: Contact      
 form:
   email-address: md@kingcode.uk
   first-title: basic info
@@ -61,62 +63,3 @@ form:
   dropdown-option-3: Consultations
   dropdown-option-4: Other
 ---
-
-<!-- form -->
-  <section class="padded grid-center featured-bg">
-    <div class="light-bg col-8_md-9_sm-12 padded radius" id="{{page.links.form}}">
-      <h2 class="editable">Contact</h2>
-      <form method="post" action="/success.html" class="enquiry capped-width">
-
-        <div class="grid padded-sides">
-        <div class="col-2_sm-12 relative">
-          <h3 class="sm-bold vertical-form-text editable"> {{page.form.first-title}}</h3>
-        </div>
-
-        <div class="col-10_sm-12 form-padded">
-          <div class="floating-input">
-            <input type="text" name="{{page.form.text-option-1}}" placeholder="{{page.form.text-option-1}}" class="input-text" required="">
-            <label class="input-label">{{page.form.text-option-1}}</label>
-          </div>
-
-          <div class="floating-input">
-            <input type="text" name="{{page.form.text-option-2}}" placeholder="{{page.form.text-option-2}}" class="input-text" required="">
-            <label class="input-label">{{page.form.text-option-2}}</label>
-          </div>
-
-          <div class="floating-input">
-            <input type="text" name="{{page.form.text-option-3}}" placeholder="{{page.form.text-option-3}}" class="input-text">
-            <label class="input-label">{{page.form.text-option-3}}</label>
-          </div>
-
-        </div>
-      </div>
-      <div class="grid padded-sides">
-
-        <div class="col-2_sm-12 relative">
-          <h3 class="sm-bold vertical-form-text editable">{{page.form.second-title}} </h3>
-        </div>
-
-        <div class="col-10_sm-12 form-padded">
-          <div class="floating-input">
-            <textarea name="{{page.form.message-option}}" placeholder="{{page.form.message-option}}" class="input-text"></textarea>
-            <label class="input-label">{{page.form.message-option}}</label>
-          </div>
-
-          <div class="floating-input input-text">
-            <select name="services" id="services" required="">
-              <option class="input-text">{{page.form.dropdown-title}}</option>
-              <option class="input-text" value="{{page.form.dropdown-option-1}}">{{page.form.dropdown-option-1}}</option>
-              <option class="input-text" value="{{page.form.dropdown-option-2}}">{{page.form.dropdown-option-2}}</option>
-              <option class="input-text" value="{{page.form.dropdown-option-3}}">{{page.form.dropdown-option-3}}</option>
-              <option class="input-text" value="{{page.form.dropdown-option-4}}">{{page.form.dropdown-option-4}}</option>
-            </select>
-          </div>
-          <div class="padded grid-center">
-            <input type="hidden" name="_to" value="{{page.email-address}}" />
-            <input type="text" name="_gotcha" style="display: none;" />
-            <input type="submit" value="Send Message" class="center button-solid" />
-          </div>
-    </div></div></form>
-  </div>
-</section>

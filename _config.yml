@@ -41,3 +41,12 @@ _array_structures:
             text:
             symbols:
             ending:
+      - label: Form
+        icon: form
+        value:
+          _section-type: form
+          heading:
+          first:
+            text:
+            symbols:
+            ending:
