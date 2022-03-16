@@ -1,6 +1,6 @@
 page_blocks: []
 _array_structures:
-  content-block:
+  content-blocks:
     values:
       - label: Hero
         icon: star
@@ -31,4 +31,4 @@ _array_structures:
           third-project:
             image: /images/consultations.jpg
             subheading: Consultations
-            text: 
+            text:
