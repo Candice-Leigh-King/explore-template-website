@@ -341,6 +341,16 @@ footer {
   color: #c3a496;
   }
 
+/* visual editor   */
+
+.editor-content {
+  display: none;
+}
+
+.cms-editor-active .editor-content {
+  display: block;
+}
+
 @media(max-width:768px) {
   .hamburger {
     margin: 1%;

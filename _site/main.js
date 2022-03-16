@@ -29,3 +29,9 @@ $(document).ready(function() {
 			});
 			});
 			});
+
+			if (window.inEditorMode) {
+  alert('Inside CloudCannon!');
+} else {
+  alert('Not in CloudCannon.');
+}
