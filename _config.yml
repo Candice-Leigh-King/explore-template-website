@@ -3,7 +3,7 @@ _array_structures:
   content-block:
     values:
       - label: banner image
-        icon: hero
+        icon: star
         value:
           _section-type: banner_image
           banner-image.html:
