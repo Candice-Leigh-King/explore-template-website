@@ -33,7 +33,7 @@ _array_structures:
             subheading:
             text:
       - label: Carousel
-        icon: people
+        icon: title
         value:
           _section-type: carousel
           heading:
