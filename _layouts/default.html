@@ -36,9 +36,9 @@
         <meta name="twitter:image:alt" content="{{page.seo.social-alt}}" />
 
       <!-- GOOGLE FONTS -->
-      <link rel="preconnect" href="https://fonts.googleapis.com" />
-      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-      <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet" />
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
 
 
         <!-- Viewport meta tag -->
@@ -81,7 +81,7 @@
           {
           color: var(--darkBackgroundTextColor);
           }
-         -->
+        </style> -->
     </head>
 
 
@@ -98,11 +98,11 @@
               ╳
             </p>
             <div class="padded-top-nav  ">
-              <a href="/" class="logo center grow exit editable"> <img src="/images/final-logo.png" alt="" /></a>
-              <p><a class="padded-sides text-med exit editable" href="/#">about</a></p>
-              <p><a class="padded-sides text-med exit editable" href="/#services">services</a></p>
-              <p><a class="padded-sides text-med exit editable" href="/#review">reviews</a></p>
-              <p><a class="padded-sides text-med exit editable" href="/#contact">contact</a></p>
+              <a href="/" class="logo center grow exit editable"> <img src="/images/final-logo.png" alt="{{page.logo-alt}}" /></a>
+              <p><a class="padded-sides text-med exit editable" href="/#{{page.links.arched-image}}">about</a></p>
+              <p><a class="padded-sides text-med exit editable" href="/#{{page.links.cards}}">services</a></p>
+              <p><a class="padded-sides text-med exit editable" href="/#{{page.links.carousel}}">reviews</a></p>
+              <p><a class="padded-sides text-med exit editable" href="/#{{page.links.form}}">contact</a></p>
             </div>
           </div>
         </nav>
@@ -112,12 +112,12 @@
 
     {{content}}
 
-    <footer class="grid-center featured-bg ">
-      <div class="col-12 socials ">
-        {{page.social-links.instagram}}
-        <a href="{{page.social-links.facebook}}" class="margin fb">{{page.social-links.facebook-icon}}</a>
-        <a href="{{page.social-links.tiktok}}" class="margin tt ">{{page.social-links.tiktok-icon}}</a>
-        <a href="{{page.social-links.youtube}}" class="margin yt ">{{page.social-links.youtube-icon}}</a>
+    <footer class="grid-center featured-bg editable">
+      <div class="col-12 socials editable">
+        <a href="https://www.instagram.com/candy_and_the_king/" class="margin ig editable"><span class="iconify" data-icon="ph:instagram-logo-fill"></span></a>
+        <a href="https://www.facebook.com/candy.and.the.king/" class="margin fb editable"><span class="iconify" data-icon="brandico:facebook"></span></a>
+        <a href="https://www.tiktok.com/@candy_and_the_king" class="margin tt editable"><span class="iconify" data-icon="simple-icons:tiktok"></span></span></a>
+        <a href="https://www.youtube.com/c/candyandtheking" class="margin yt editable"><span class="iconify" data-icon="dashicons:youtube"></span></a>
       </div>
     </footer>
 
@@ -127,7 +127,7 @@
         <a href="#" class="padded-right editable"> © Your Brand Name</a>
         </p>
       </div>
-
+    </section>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
 
       <script src="/main.js" type="text/javascript"></script>
