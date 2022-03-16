@@ -12,7 +12,7 @@ _array_structures:
         icon: quotes
         value:
           _section-type: image-and-text
-          arched_image:
+          image:
           heading:
           text:
       - label: Projects
