@@ -32,3 +32,12 @@ _array_structures:
             image: /images/consultations.jpg
             subheading: Consultations
             text:
+      - label: Carousel
+        icon: testimonial
+        value:
+          _section-type: carousel
+          heading:
+          first:
+            text:
+            symbols:
+            ending:    
