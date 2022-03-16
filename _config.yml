@@ -5,7 +5,7 @@ _array_structures:
       - label: banner image
         icon: star
         value:
-          _section-type: banner_image
+          _section-type: hero
           banner_image:
           hero:
       - label: arched image with text
