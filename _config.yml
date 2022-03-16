@@ -24,11 +24,11 @@ _array_structures:
             image:
             subheading:
             text:
-          first-project.subheading:
-          first-project.text:
-          second-project.image:
-          second-project.subheading:
-          second-project.text:
-          third-project.image:
-          third-project.subheading:
-          third-project.text:
+          second-project:
+            image: /images/social-media.jpg
+            subheading: Social Media Management
+            text: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+          third-project:
+            image: /images/consultations.jpg
+            subheading: Consultations
+            text: 
