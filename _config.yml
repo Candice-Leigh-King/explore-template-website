@@ -18,7 +18,7 @@ _array_structures:
           heading:
           text:
       - label: projects
-        icon: project
+        icon: bag
         value:
           _section-type: projects
           projects.html:
