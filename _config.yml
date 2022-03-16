@@ -37,6 +37,7 @@ _array_structures:
         value:
           _section-type: carousel
           heading:
-          text:
-          symbols:
-          ending:
+          first:
+            text:
+            symbols:
+            ending:
