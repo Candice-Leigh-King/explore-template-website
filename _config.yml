@@ -8,18 +8,18 @@ _array_structures:
           _section-type: hero
           hero_image:
           hero:
-      - label: arched image with text
+      - label: Image and Text
         icon: quotes
         value:
-          _section-type: arched-image-with-text
+          _section-type: image-and-text
           arched_image:
           heading:
           text:
-      - label: projects
+      - label: Projects
         icon: work
         value:
           _section-type: projects
-          hero:
+          heading:
           first-project.image:
           first-project.subheader:
           first-project.text:
