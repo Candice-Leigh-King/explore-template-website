@@ -34,7 +34,10 @@ form:
   second-title: your brand
   message-option: Tell us a little bit more about business or brand
   dropdown-title: What services do you require?
-  dropdown-option-1: This should be the name of a service
+  dropdown-option-1: Content Creation
+  dropdown-option-2: Social Media Management
+  dropdown-option-3: Consultations
+  dropdown-option-4: Other
 ---
 
 <section class="padded-top padded-sides banner tall-100 grid center" style="background-image: url('{{page.banner_image}}');">
@@ -171,11 +174,10 @@ form:
           <div class="floating-input input-text">
             <select name="services" id="services" required="">
               <option class="input-text">{{page.form.dropdown-title}}</option>
-              <option class="input-text" value="Web Development">{{page.form.dropdown-option-1}}</option>
-              <option class="input-text" value="Social Media Marketing">Social Media Marketing</option>
-              <option class="input-text" value="Photography">Photography</option>
-              <option class="input-text" value="Videography">Videography</option>
-              <option class="input-text" value="Other">Other</option>
+              <option class="input-text" value="{{page.form.dropdown-option-1}}">{{page.form.dropdown-option-1}}</option>
+              <option class="input-text" value="{{page.form.dropdown-option-2}}">{{page.form.dropdown-option-2}}</option>
+              <option class="input-text" value="{{page.form.dropdown-option-3}}">{{page.form.dropdown-option-3}}</option>
+              <option class="input-text" value="{{page.form.dropdown-option-4}}">{{page.form.dropdown-option-4}}</option>
             </select>
           </div>
           <div class="padded grid-center">
