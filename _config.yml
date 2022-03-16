@@ -46,7 +46,11 @@ _array_structures:
         value:
           _section-type: article
           heading:
-          first:
+          top:
+            vertical-subheading:
             text:
             symbols:
             ending:
+          bottom:
+            vertical-subheading:
+            message:    
