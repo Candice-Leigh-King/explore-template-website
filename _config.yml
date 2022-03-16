@@ -42,9 +42,9 @@ _array_structures:
             symbols:
             ending:
       - label: Form
-        icon: form
+        icon: article
         value:
-          _section-type: article
+          _section-type: form
           heading:
           top:
             vertical-subheading:
@@ -53,4 +53,4 @@ _array_structures:
             ending:
           bottom:
             vertical-subheading:
-            message:    
+            message:
