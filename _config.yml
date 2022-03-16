@@ -44,7 +44,7 @@ _array_structures:
       - label: Form
         icon: form
         value:
-          _section-type: form
+          _section-type: article
           heading:
           first:
             text:
