@@ -2,11 +2,11 @@ page_blocks: []
 _array_structures:
   content-block:
     values:
-      - label: banner image
+      - label: Hero
         icon: star
         value:
           _section-type: hero
-          banner_image:
+          hero_image:
           hero:
       - label: arched image with text
         icon: image
