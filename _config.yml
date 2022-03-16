@@ -20,7 +20,10 @@ _array_structures:
         value:
           _section-type: projects
           heading:
-          first-project.image:
+          first-project:
+            image:
+            subheading:
+            text:
           first-project.subheading:
           first-project.text:
           second-project.image:
