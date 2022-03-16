@@ -1,6 +1,6 @@
 page_blocks: []
 _array_structures:
-  content-block:
+  content-blocks:
     values:
       - label: banner image
         icon: star
