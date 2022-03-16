@@ -30,12 +30,8 @@ $(document).ready(function() {
 			});
 			});
 
-			if (window.inEditorMode) {
-  alert('Inside CloudCannon!');
-} else {
-  alert('Not in CloudCannon.');
-}
-document.addEventListener('cloudcannon:load', function (e) {
-  const { CloudCannon } = e.details;
-  CloudCannon.disableGlobalInstall();
-});
+// 			if (window.inEditorMode) {
+//   alert('Inside CloudCannon!');
+// } else {
+//   alert('Not in CloudCannon.');
+// }
