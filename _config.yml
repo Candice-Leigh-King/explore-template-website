@@ -1,0 +1,12 @@
+page_blocks: []
+_array_structures:
+  sections:
+    values:
+      - label: brown background
+        icon: text
+        value:
+          _section-type: blog-featured-text
+          blog-featured-text-html:
+      - label: banner image
+        icon: image
+        value:
