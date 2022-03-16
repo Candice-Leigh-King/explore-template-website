@@ -36,8 +36,8 @@ _array_structures:
         icon: testimonial
         value:
           _section-type: carousel
-          heading:
+          review:
           first:
             text:
             symbols:
-            ending:    
+            ending:
