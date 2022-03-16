@@ -25,12 +25,12 @@ _array_structures:
             subheading:
             text:
           second-project:
-            image: /images/social-media.jpg
-            subheading: Social Media Management
-            text: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+            image: 
+            subheading:
+            text:
           third-project:
-            image: /images/consultations.jpg
-            subheading: Consultations
+            image:
+            subheading:
             text:
       - label: Carousel
         icon: testimonial
