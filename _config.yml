@@ -54,3 +54,9 @@ _array_structures:
           bottom:
             vertical-subheading:
             message:
+          option-box:
+            subheading:
+            option-1:
+            option-2:
+            option-3:
+            option-4:            
