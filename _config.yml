@@ -20,12 +20,12 @@ _array_structures:
         value:
           _section-type: projects
           hero:
-          project.first_image:
-          first-subheader:
-          first-text:
-          second_image:
-          second-subheader:
-          second-text:
-          third_image:
-          third-subheader:
-          third-text:
+          first-project.image:
+          first-project.subheader:
+          first-project.text:
+          second-project.image:
+          second-project.subheader:
+          second-project.text:
+          third-project.image:
+          third-project.subheader:
+          third-project.text:
