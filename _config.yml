@@ -9,7 +9,7 @@ _array_structures:
           hero_image:
           hero:
       - label: arched image with text
-        icon: text
+        icon: write
         value:
           _section-type: arched-image-with-text
           arched_image:
