@@ -25,7 +25,7 @@ _array_structures:
             subheading:
             text:
           second-project:
-            image: 
+            image:
             subheading:
             text:
           third-project:
@@ -33,7 +33,7 @@ _array_structures:
             subheading:
             text:
       - label: Carousel
-        icon: testimonial
+        icon: marks
         value:
           _section-type: carousel
           heading:
