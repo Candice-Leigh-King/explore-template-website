@@ -33,7 +33,7 @@ _array_structures:
             subheading:
             text:
       - label: Carousel
-        icon: capital
+        icon: money
         value:
           _section-type: carousel
           heading:
