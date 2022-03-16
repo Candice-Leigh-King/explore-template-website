@@ -23,6 +23,10 @@ form:
   email-address: md@kingcode.uk
   first-title: basic info
   text-option-1: Your Name
+  text-option-2: Your Email Address
+  text-option-3: Your WhatsApp (if preferred)
+  second-title: your brand
+  message-option: Tell us a little bit more about business or brand
 ---
 
 <section class="padded-top padded-sides banner tall-100 grid center" style="background-image: url('{{page.banner_image}}');">
@@ -129,17 +133,17 @@ form:
         <div class="col-10_sm-12 form-padded">
           <div class="floating-input">
             <input type="text" name="{{page.form.text-option-1}}" placeholder="{{page.form.text-option-1}}" class="input-text" required="">
-            <label class="input-label">Your Name</label>
+            <label class="input-label">{{page.form.text-option-1}}</label>
           </div>
 
           <div class="floating-input">
-            <input type="text" name="email" placeholder="Your Email Address" class="input-text" required="">
-            <label class="input-label">Your Email Address</label>
+            <input type="text" name="{{page.form.text-option-2}}" placeholder="{{page.form.text-option-2}}" class="input-text" required="">
+            <label class="input-label">{{page.form.text-option-2}}</label>
           </div>
 
           <div class="floating-input">
-            <input type="text" name="whatsapp" placeholder="Your WhatsApp (if preferred)" class="input-text">
-            <label class="input-label">Your WhatsApp</label>
+            <input type="text" name="{{page.form.text-option-3}}" placeholder="{{page.form.text-option-3}}" class="input-text">
+            <label class="input-label">{{page.form.text-option-3}}</label>
           </div>
 
         </div>
@@ -147,13 +151,13 @@ form:
       <div class="grid padded-sides">
 
         <div class="col-2_sm-12 relative">
-          <h3 class="sm-bold vertical-form-text editable"> your brand </h3>
+          <h3 class="sm-bold vertical-form-text editable">{{page.form.second-title}} </h3>
         </div>
 
         <div class="col-10_sm-12 form-padded">
           <div class="floating-input">
-            <textarea name="your brand" placeholder="Tell us a little bit more about business or brand" class="input-text" required=""></textarea>
-            <label class="input-label editable">Your Brand</label>
+            <textarea name="{{page.form.message-option}}" placeholder="{{page.form.message-option}}" class="input-text"></textarea>
+            <label class="input-label">{{page.form.message-option}}</label>
           </div>
 
           <div class="floating-input input-text">
