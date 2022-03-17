@@ -1,5 +1,7 @@
 
-text-colors-title:
+values:
+  - label: Hero
+    icon: star
   hero_color: '#FDFAF0'
   headings_color: '#CE967A'
   subheadings_color: '#CE967A'
