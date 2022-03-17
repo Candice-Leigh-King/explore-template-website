@@ -244,12 +244,10 @@ p:last-child {
   position: absolute;
   top: 0;
   font-family: 'Poppins', sans-serif;
-  font-size: .8rem;
+  font-size: 1rem;
   letter-spacing: 1px;
   color: #5a5a5a;
   }
-
-.enquiry textarea {resize: none;}
 
 .input-text:placeholder-shown+.input-label
   {
@@ -300,12 +298,12 @@ option
   }
 select {padding: 0.7rem 0 0.5rem}
 
-.input-text:focus {border-color:  #efe9db;}
+.input-text:focus {border-color:  #CE967A;}
 
 input:focus, textarea:focus
   {
   outline: 0;
-  border: 2x solid #fff;
+  border: 2px solid #CE967A;
   }
 
 footer {
@@ -394,7 +392,30 @@ footer {
 
 h1 {font-size: 2rem;}
 
-.form-padded {margin: 0% 0% 0% 3%;}
+
+.floating-input {
+      padding-top: 1rem;
+      margin-bottom: 1.5rem;
+    }
+
+.input-text
+  {
+  font-size: 0.8rem;
+  }
+
+.input-label
+  {
+  font-size: .8rem;
+  }
+
+
+  input,
+  textarea,
+  select,
+  option
+    {
+    font-size: 0.8rem;
+    }
 
 .vertical-form-text {
 margin: -3%;}
