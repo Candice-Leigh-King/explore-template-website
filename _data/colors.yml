@@ -1,14 +1,17 @@
-icon: star
-text-colors:
-  hero_color: '#FDFAF0'
-  headings_color: '#CE967A'
-  subheadings_color: '#CE967A'
-  text_color: '#4c4c4c'
-image-and-text-background_color: '#FAE6D4'
-projects-background_color: '#F8DCC2'
-projects-text-background_color: '#FAE6D4'
-carousel-background_color: '#F8DCC2'
-form-background_color: '#F8DCC2'
-form-arche-background_color: '#FAE6D4'
-button_color: '#CE967A'
-button-text_color: '#4c4c4c'
+  values:
+    - label: Hero
+      icon: star
+      value:
+        text-colors:
+          hero_color: '#FDFAF0'
+          headings_color: '#CE967A'
+          subheadings_color: '#CE967A'
+          text_color: '#4c4c4c'
+        image-and-text-background_color: '#FAE6D4'
+        projects-background_color: '#F8DCC2'
+        projects-text-background_color: '#FAE6D4'
+        carousel-background_color: '#F8DCC2'
+        form-background_color: '#F8DCC2'
+        form-arche-background_color: '#FAE6D4'
+        button_color: '#CE967A'
+        button-text_color: '#4c4c4c'
