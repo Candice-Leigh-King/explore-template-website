@@ -244,7 +244,6 @@ p:last-child {
   position: absolute;
   top: 0;
   font-family: 'Poppins', sans-serif;
-  text-transform: uppercase;
   font-size: .8rem;
   letter-spacing: 1px;
   color: #5a5a5a;
@@ -340,9 +339,10 @@ footer {
   font-size: 0.8rem;
   color: #c3a496;
   }
+.desktop-hide {display: none;}
 
 /* visual editor   */
-/* 
+/*
 .editor-content {
   display: none;
 }
@@ -376,6 +376,12 @@ footer {
     top: 9rem;
     left: 0rem;
     }
+
+.socials a {font-size: 1.9rem;}
+.fb {padding: 8px 24px;}
+.ig {padding: 8px 16px;}
+.tt {padding: 8px 15px;}
+.yt {padding: 8px 15px;}
 .padded-top-botton-left {padding: 5%;}
 }
 
@@ -391,7 +397,13 @@ h1 {font-size: 2rem;}
 .form-padded {margin: 0% 0% 0% 3%;}
 
 .vertical-form-text {
-margin: -3%;
+margin: -3%;}
 
+.socials a {font-size: 1.5rem;}
+.fb {padding: 5px 17px;}
+.ig {padding: 5px 11px;}
+.tt {padding: 5px 10px;}
+.yt {padding: 5px 10px;}
+.desktop-hide {display: inline;}
 
 } /* end media query */

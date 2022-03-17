@@ -59,29 +59,48 @@
         <link rel="stylesheet" href="/styles.css" />
         <style>
           :root {
-            --hero: ;
-            --headings: ;
-            --subheadings ;
-            --text: ;
-            --darkBackground: ;
-            --darkBackgroundTextColor: ;
+            --hero: #FDFAF0;
+            --headings: #CE967A;
+            --subheadings: #CE967A;
+            --text: #4c4c4c;
+            --imageAndText: #FAE6D4;
+            --projectsBackgroundColor: #F8DCC2;
+            --projectsTextBackgroundColor: #FAE6D4;
+            --carouselBackgroundColor: #F8DCC2;
+            --formBackgroundColor: #F8DCC2;
+            --formArcheBackgroundColor: #FAE6D4;
+            --buttonColor: #CE967A;
+            --buttonTextColor: #4c4c4c;
           }
           h1 {color: var(--hero);}
           h2 {color: var(--headings);}
           h3, h4, h5, h6 {color: var(--subheadings);}
           p {color: var(--text);}
-          {
-          background-color: var(--body);
-          }
-          .dark_background_color
-          {
-          background-color: var (--darkBackground);
-          }
-          .dark_background_color *
-          {
-          color: var(--darkBackgroundTextColor);
-          }
 
+          .image-and-text-background_color {background-color: var(--imageAndText);}
+
+          .projects-background_color {background-color: var(--projectsBackgroundColor);}
+
+          .project-text-background_color {background-color: var(--projectTextBackgroundColor);}
+
+          .carousel-background_color {background-color: var(--carouselBackgroundColor);}
+
+          .form-background_color {background-color: var(--formBackgroundColor);}
+
+          .form-arche-background_color {background-color: var(--formArcheBackgroundColor);}
+
+          .button_color {
+            background-color: var(--buttonColor);
+            border: 1px solid var(--buttonColor);}
+
+          .button_color:hover {
+            background-color: transparent;
+            color: var(--buttonColor);
+            border: 1px solid var(--buttonColor);}
+
+          .button-text_color: {color: var(buttonTextColor);}
+
+          </style>
     </head>
 
 
@@ -130,7 +149,7 @@
 
 
     <div class="col-12-middle center built featured-bg">
-        <p> <a href="https://www.kingcode.uk" class="padded-sides"> Website by King Code </a> x <a href="https://www.candyandtheking.com" class="padded-sides">  Candy and the King </a>
+        <p> <a href="https://www.kingcode.uk" class="padded-sides"> Website by King Code </a> x <br class="desktop-hide"><a href="https://www.candyandtheking.com" class="padded-sides">  Candy and the King </a>
         <a href="#" class="padded-right editable"> © Your Brand Name</a>
         </p>
       </div>
