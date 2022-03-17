@@ -1,7 +1,10 @@
-  values:
-    - label: Hero
-      icon: star
-      value:
+  page_blocks: []
+  _array_structures:
+    content-blocks:
+      values:
+        - label: Hero
+          icon: star
+          value:
         text-colors:
           hero_color: '#FDFAF0'
           headings_color: '#CE967A'
