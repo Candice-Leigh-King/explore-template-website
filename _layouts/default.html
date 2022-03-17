@@ -63,6 +63,8 @@
             --headings: {{site.data.colors.text-colors.headings_color}};
             --subheadings: {{site.data.colors.text-colors.subheadings_color}};
             --text: {{site.data.colors.text-colors.text_color}};
+            --links: {{site.data.colors.text-colors.link_color}};
+            --linksHover: {{site.data.colors.text-colors.links-hover_color}};
             --imageAndText: {{site.data.colors.background-colors.image-and-text-background_color}};
             --projectsBackgroundColor: {{site.data.colors.background-colors.projects-background_color}};
             --projectsTextBackgroundColor: {{site.data.colors.background-colors.projects-text-background_color}};
@@ -80,6 +82,8 @@
           h2 {color: var(--headings);}
           h3, h4, h5, h6 {color: var(--subheadings);}
           p {color: var(--text);}
+          a {color: var(--links);}
+          a:hover {color: var(--linksHover)}
 
           .image-and-text-background_color {background-color: var(--imageAndText);}
 
@@ -116,7 +120,6 @@
           .social-icons_color a {
             background-color: var(--socialIconsColor);
             border: solid var(--socialIconsColor);}
-
           </style>
     </head>
 
@@ -157,7 +160,7 @@
     <footer class="grid-center padded-top footer-background_color featured-bg">
       <div class="col-12 social-icons_color socials">
         <a href="{{page.socials.instagram}}" class="margin ig"><span class="iconify" data-icon="ph:instagram-logo-fill"></span></a>
-        <a href="{{page.socials.facebook}}" class="margin fb"><span class="iconify" data-icon="brandico:facebook"></span></a>
+        <a href="{{page.socials.facebook}}" class="margin fb "><span class="iconify" data-icon="brandico:facebook"></span></a>
         <a href="{{page.socials.tiktok}}" class="margin tt"><span class="iconify" data-icon="simple-icons:tiktok"></span></a>
         <a href="{{page.socials.youtube}}" class="margin yt "><span class="iconify" data-icon="dashicons:youtube"></span></a>
       </div>

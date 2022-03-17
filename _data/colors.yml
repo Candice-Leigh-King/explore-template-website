@@ -4,6 +4,8 @@ text-colors:
   headings_color: '#CE967A'
   subheadings_color: '#CE967A'
   text_color: '#4c4c4c'
+  link_color: '#c3a496'
+  links-hover_color: '#FDFAF0'
 background-colors:
   image-and-text-background_color: '#FAE6D4'
   projects-background_color: '#F8DCC2'
