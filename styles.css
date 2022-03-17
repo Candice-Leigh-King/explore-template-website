@@ -57,6 +57,7 @@ overflow-x: hidden;
 .padded-right {padding-right: 5%;}
 .padded-top-botton-left {padding: 5% 0% 5% 5%;}
 .padded-bottom {padding-bottom: 5%; }
+.padded-top {padding-top: 3%;}
 .padded-review {padding: 0% 15%;}
 .form-padded {padding: 3%}
 .margin {margin: 10px;}
@@ -303,7 +304,6 @@ input:focus, textarea:focus
 
 footer {
   border-top: 1px solid black;
-  padding-top: 5%;
 }
 
 .socials a
