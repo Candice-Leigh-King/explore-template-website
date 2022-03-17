@@ -285,7 +285,7 @@ select,
 option
   {
   border-style: solid;
-  border: 2px solid rgb(200, 200, 205);
+  border: 2px solid #CE967A;
   padding: 0.8em;
   display: block;
   width: 100%;
@@ -303,7 +303,7 @@ select {padding: 0.7rem 0 0.5rem}
 input:focus, textarea:focus
   {
   outline: 0;
-  border: 2px solid #CE967A;
+
   }
 
 footer {
