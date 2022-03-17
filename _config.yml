@@ -5,13 +5,13 @@ _array_structures:
       - label: Hero
         icon: star
         value:
-          _section-type: hero.html
+          _section-type: hero
           hero_image:
           hero:
       - label: Image and Text
         icon: image
         value:
-          _section-type: image-and-text.html
+          _section-type: image-and-text
           image:
           heading:
           text:
