@@ -17,6 +17,6 @@ form-colors:
 navigation-colors:
   navigation-background_color: '#FAE6D4'
   navigation-arche-background_color: '#F8DCC2'
-footer-color:
+footer-colors:
   footer-background_color: '#F8DCC2'
-  social-icons_color: '#FAE6D4'  
+  social-icons_color: '#FAE6D4'
