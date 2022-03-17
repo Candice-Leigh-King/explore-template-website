@@ -65,6 +65,7 @@
             --text: #4c4c4c;
             --links: #c3a496;
             --linksHover: #FDFAF0;
+            --hamburgerColor: #FDFAF0;
             --imageAndText: #FAE6D4;
             --projectsBackgroundColor: #F8DCC2;
             --projectsTextBackgroundColor: #FAE6D4;
@@ -76,7 +77,7 @@
             --navigationBackgroundColor: #FAE6D4;
             --navigationArcheBackgroundColor: #F8DCC2;
             --footerBackgroundColor: #F8DCC2;
-            --socialIconsColor: ;
+            --socialIconsColor: #FAE6D4;
           }
           h1 {color: var(--hero);}
           h2 {color: var(--headings);}
@@ -84,6 +85,9 @@
           p {color: var(--text);}
           a {color: var(--links);}
           a:hover {color: var(--linksHover)}
+
+
+          .hamburger_color {color: var(--hamburgerColor);}
 
           .image-and-text-background_color {background-color: var(--imageAndText);}
 
@@ -120,6 +124,11 @@
           .social-icons_color a {
             background-color: var(--socialIconsColor);
             border: solid var(--socialIconsColor);}
+
+          .social-icons_color a:hover{  color: var(--socialIconsColor);
+            background-color: transparent;
+            border: solid var(--socialIconsColor);}
+
           </style>
     </head>
 
@@ -127,7 +136,7 @@
     <header class="grid">
 
 
-        <p class=" col-1-middle hamburger editable">
+        <p class=" col-1-middle hamburger_color hamburger editable">
           _<br />_<br />_
         </p>
 

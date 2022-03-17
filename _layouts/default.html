@@ -65,6 +65,7 @@
             --text: {{site.data.colors.text-colors.text_color}};
             --links: {{site.data.colors.text-colors.link_color}};
             --linksHover: {{site.data.colors.text-colors.links-hover_color}};
+            --hamburgerColor: {{site.data.colors.text-colors.hamburger_color}};
             --imageAndText: {{site.data.colors.background-colors.image-and-text-background_color}};
             --projectsBackgroundColor: {{site.data.colors.background-colors.projects-background_color}};
             --projectsTextBackgroundColor: {{site.data.colors.background-colors.projects-text-background_color}};
@@ -76,7 +77,7 @@
             --navigationBackgroundColor: {{site.data.colors.navigation-colors.navigation-background_color}};
             --navigationArcheBackgroundColor: {{site.data.colors.navigation-colors.navigation-arche-background_color}};
             --footerBackgroundColor: {{site.data.colors.footer-colors.footer-background_color}};
-            --socialIconsColor: {{site.data.footer-color.social-icons_color}};
+            --socialIconsColor: {{site.data.colors.footer-colors.social-icons_color}};
           }
           h1 {color: var(--hero);}
           h2 {color: var(--headings);}
@@ -84,6 +85,9 @@
           p {color: var(--text);}
           a {color: var(--links);}
           a:hover {color: var(--linksHover)}
+
+
+          .hamburger_color {color: var(--hamburgerColor);}
 
           .image-and-text-background_color {background-color: var(--imageAndText);}
 
@@ -120,6 +124,11 @@
           .social-icons_color a {
             background-color: var(--socialIconsColor);
             border: solid var(--socialIconsColor);}
+
+          .social-icons_color a:hover{  color: var(--socialIconsColor);
+            background-color: transparent;
+            border: solid var(--socialIconsColor);}
+
           </style>
     </head>
 
@@ -127,7 +136,7 @@
     <header class="grid">
 
 
-        <p class=" col-1-middle hamburger editable">
+        <p class=" col-1-middle hamburger_color hamburger editable">
           _<br />_<br />_
         </p>
 
