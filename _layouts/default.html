@@ -74,6 +74,7 @@
             --navigationBackgroundColor: {{site.data.colors.navigation-colors.navigation-background_color}};
             --navigationArcheBackgroundColor: {{site.data.colors.navigation-colors.navigation-arche-background_color}};
             --footerBackgroundColor: {{site.data.colors.footer-color.footer-background_color}};
+            --socialIconsColor {{site.data.footer-colorsocial-icons_color.}};
           }
           h1 {color: var(--hero);}
           h2 {color: var(--headings);}
@@ -112,6 +113,9 @@
           .navigation-arche-background_color {background-color: var(--navigationArcheBackgroundColor);}
 
           .footer-background_color {background-color: var(--footerBackgroundColor);}
+          .social-icons_color a {
+            background-color: var(--socialIconsColor);
+            border: solid var(--socialIconsColor);}
 
           </style>
     </head>
@@ -151,7 +155,7 @@
     {% endfor %}
 
     <footer class="grid-center padded-top footer-background_color featured-bg">
-      <div class="col-12 socials">
+      <div class="col-12 social-icons_color socials">
         <a href="{{page.socials.instagram}}" class="margin ig"><span class="iconify" data-icon="ph:instagram-logo-fill"></span></a>
         <a href="{{page.socials.facebook}}" class="margin fb"><span class="iconify" data-icon="brandico:facebook"></span></a>
         <a href="{{page.socials.tiktok}}" class="margin tt"><span class="iconify" data-icon="simple-icons:tiktok"></span></a>
