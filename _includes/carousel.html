@@ -2,7 +2,9 @@
   <div class="col-12 padded-bottom" id="{{page.links.carousel}}">
     <h2 class="editable">{{item.heading}}</h2>
   </div>
+
   <div class=" col-12 padded-sides grid-center one-time ">
+    {% for carousel in item.carousel %}
     <div class="grid-center centered">
       <div class="col-12-middle padded-review">
         <hr />
@@ -12,7 +14,8 @@
         <p class="centered editable"> {{item.first.ending}} </p>
       </div>
     </div>
-    <div class="grid-center centered">
+    {% endfor %}
+    <!-- <div class="grid-center centered">
       <div class="col-12-middle padded-review">
         <hr />
         <p class="editable">
@@ -21,6 +24,6 @@
         </p>
         <p class="centered editable"> - Abby Tomlinson, Senior Associate Manager, Content & UX | The Hershey Company </p>
       </div>
-    </div>
+    </div> -->
   </div>
 </section>
