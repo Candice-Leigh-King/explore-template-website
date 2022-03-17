@@ -37,9 +37,10 @@ _array_structures:
         value:
           _section-type: carousel
           heading:
-          text:
-          symbols:
-          ending:
+          carousel:
+            text:
+            symbols:
+            ending:
       - label: Form
         icon: article
         value:
