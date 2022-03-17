@@ -64,24 +64,17 @@
             --subheadings {{site.data.colors.subheading_color}};
             --text: {{site.data.colors.text_color}};
             --imageAndText: {{site.data.colors.image-and-text-background_color}};
-            --darkBackground: {{site.data.colors.dark_background_color}};
-            --darkBackgroundTextColor: {{site.data.colors.dark_background_text_color}};
+            --projectTextBackgroundColor {{site.data.colors.project-text-background_color}}
           }
           h1 {color: var(--hero);}
           h2 {color: var(--headings);}
           h3, h4, h5, h6 {color: var(--subheadings);}
           p {color: var(--text);}
+
           .image-and-text-background_color {background-color: var(--imageAndText);}
-          background-color: var(--body);
-          }
-          .dark_background_color
-          {
-          background-color: var (--darkBackground);
-          }
-          .dark_background_color *
-          {
-          color: var(--darkBackgroundTextColor);
-          }
+
+          .project-text-background_color {background-color: var(--projectTextBackgroundColor);}
+          
           </style>
     </head>
 
