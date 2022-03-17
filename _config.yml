@@ -48,9 +48,9 @@ _array_structures:
           heading:
           top:
             vertical-subheading:
-            text:
-            symbols:
-            ending:
+            text-option-1:
+            text-option-2:
+            text-option-3:
           bottom:
             vertical-subheading:
             message:
