@@ -9,7 +9,7 @@ _array_structures:
           hero_image:
           hero:
       - label: Image and Text
-        icon: quote
+        icon: format_quote
         value:
           _section-type: image-and-text
           image:
