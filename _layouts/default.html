@@ -71,6 +71,7 @@
             --formArcheBackgroundColor: {{site.data.colors.form-colors.form-arche-background_color}};
             --buttonColor: {{site.data.colors.form-colors.button_color}};
             --buttonTextColor: {{site.data.colors.form-colors.button-text_color}};
+            --navigationBackgroundColor: {{site.data.colors.navigation-colors.navigation-background_color}}
           }
           h1 {color: var(--hero);}
           h2 {color: var(--headings);}
@@ -104,6 +105,9 @@
             border-bottom: 2px solid var(--buttonColor);}
 
           .input-text:focus   {border-bottom: 2px solid var(--buttonColor)};
+
+          .navigation-background_color {background-color: var(--navigationBackgroundColor);}
+
           </style>
     </head>
 
@@ -115,7 +119,7 @@
           _<br />_<br />_
         </p>
 
-        <nav class="grid-middle page-nav mobile-menu">
+        <nav class="grid-middle navigation-background_color page-nav mobile-menu">
           <div class="featured-bg radius ">
             <p class="cross exit right editable">
               ╳

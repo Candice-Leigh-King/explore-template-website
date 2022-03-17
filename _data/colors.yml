@@ -14,3 +14,5 @@ form-colors:
   form-arche-background_color: '#FAE6D4'
   button_color: '#CE967A'
   button-text_color: '#4c4c4c'
+navigation-colors:
+  navigation-background_color: ''
