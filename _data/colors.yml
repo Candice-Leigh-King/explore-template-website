@@ -16,3 +16,4 @@ form-colors:
   button-text_color: '#4c4c4c'
 navigation-colors:
   navigation-background_color: '#FAE6D4'
+  navigation-arche-background_color: ''
