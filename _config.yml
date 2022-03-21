@@ -64,7 +64,7 @@ hero-font: Amatic SC
 _select_data:
   hero-font:
     type: select
-    options:
+    option:
       values:
         - Amatic SC
         - Barlow Condensed
