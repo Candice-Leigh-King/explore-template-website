@@ -77,17 +77,17 @@ _select_data:
 heading-font:
 _select_data:
   fonts:
-      - Amatic SC
-      - Barlow Condensed
-      - Belleza
-      - Kaushan Script
-      - Montserrat
-      - Oooh Baby
-      - Playfair Display
-      - Poppins
-      - Quicksand
-      - Raleway
-      - Roboto
+      - Amatic SC, cursive
+      - Barlow Condensed, sans-serif
+      - Belleza, sans-serif
+      - Kaushan Script, cursive
+      - Montserrat, sans-serif
+      - Oooh Baby, cursive
+      - Playfair Display, serif
+      - Poppins, sans-serif
+      - Quicksand, sans-serif
+      - Raleway, sans-serif
+      - Roboto, sans-serif
 subheading-font:
 _select_data:
   fonts:
@@ -105,14 +105,14 @@ _select_data:
 text-font:
 _select_data:
   fonts:
-      - Amatic SC
-      - Barlow Condensed
-      - Belleza
-      - Kaushan Script
-      - Montserrat
-      - Oooh Baby
-      - Playfair Display
-      - Poppins
-      - Quicksand
-      - Raleway
-      - Roboto
+      - Amatic SC, cursive
+      - Barlow Condensed, sans-serif
+      - Belleza, sans-serif
+      - Kaushan Script, cursive
+      - Montserrat, sans-serif
+      - Oooh Baby, cursive
+      - Playfair Display, serif
+      - Poppins, sans-serif
+      - Quicksand, sans-serif
+      - Raleway, sans-serif
+      - Roboto, sans-serif
