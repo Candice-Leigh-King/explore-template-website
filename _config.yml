@@ -62,53 +62,53 @@ _array_structures:
             option-4:
 hero-font:
 _select_data:
-      - Amatic SC, cursive
-      - Barlow Condensed, sans-serif
-      - Belleza, sans-serif
-      - Kaushan Script, cursive
-      - Montserrat, sans-serif
-      - Oooh Baby, cursive
-      - Playfair Display, serif
-      - Poppins, sans-serif
-      - Quicksand, sans-serif
-      - Raleway, sans-serif
-      - Roboto, sans-serif
+    - Amatic SC, cursive
+    - Barlow Condensed, sans-serif
+    - Belleza, sans-serif
+    - Kaushan Script, cursive
+    - Montserrat, sans-serif
+    - Oooh Baby, cursive
+    - Playfair Display, serif
+    - Poppins, sans-serif
+    - Quicksand, sans-serif
+    - Raleway, sans-serif
+    - Roboto, sans-serif
 heading-font:
 _select_data:
-      - Amatic SC, cursive
-      - Barlow Condensed, sans-serif
-      - Belleza, sans-serif
-      - Kaushan Script, cursive
-      - Montserrat, sans-serif
-      - Oooh Baby, cursive
-      - Playfair Display, serif
-      - Poppins, sans-serif
-      - Quicksand, sans-serif
-      - Raleway, sans-serif
-      - Roboto, sans-serif
+    - Amatic SC, cursive
+    - Barlow Condensed, sans-serif
+    - Belleza, sans-serif
+    - Kaushan Script, cursive
+    - Montserrat, sans-serif
+    - Oooh Baby, cursive
+    - Playfair Display, serif
+    - Poppins, sans-serif
+    - Quicksand, sans-serif
+    - Raleway, sans-serif
+    - Roboto, sans-serif
 subheading-font:
 _select_data:
-      - Amatic SC, cursive
-      - Barlow Condensed, sans-serif
-      - Belleza, sans-serif
-      - Kaushan Script, cursive
-      - Montserrat, sans-serif
-      - Oooh Baby, cursive
-      - Playfair Display, serif
-      - Poppins, sans-serif
-      - Quicksand, sans-serif
-      - Raleway, sans-serif
-      - Roboto, sans-serif
+    - Amatic SC, cursive
+    - Barlow Condensed, sans-serif
+    - Belleza, sans-serif
+    - Kaushan Script, cursive
+    - Montserrat, sans-serif
+    - Oooh Baby, cursive
+    - Playfair Display, serif
+    - Poppins, sans-serif
+    - Quicksand, sans-serif
+    - Raleway, sans-serif
+    - Roboto, sans-serif
 text-font:
 _select_data:
-      - Amatic SC, cursive
-      - Barlow Condensed, sans-serif
-      - Belleza, sans-serif
-      - Kaushan Script, cursive
-      - Montserrat, sans-serif
-      - Oooh Baby, cursive
-      - Playfair Display, serif
-      - Poppins, sans-serif
-      - Quicksand, sans-serif
-      - Raleway, sans-serif
-      - Roboto, sans-serif
+    - Amatic SC, cursive
+    - Barlow Condensed, sans-serif
+    - Belleza, sans-serif
+    - Kaushan Script, cursive
+    - Montserrat, sans-serif
+    - Oooh Baby, cursive
+    - Playfair Display, serif
+    - Poppins, sans-serif
+    - Quicksand, sans-serif
+    - Raleway, sans-serif
+    - Roboto, sans-serif
