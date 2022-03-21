@@ -23,3 +23,6 @@ navigation-colors:
 footer-colors:
   footer-background_color: '#F8DCC2'
   social-icons_color: '#FAE6D4'
+media-kit:
+  button_color: '#c3a496'
+  button-hover_color: '#FDFAF0'   

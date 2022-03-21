@@ -87,6 +87,8 @@
             --formArcheBackgroundColor: {{site.data.colors.form-colors.form-arche-background_color}};
             --buttonColor: {{site.data.colors.form-colors.button_color}};
             --buttonTextColor: {{site.data.colors.form-colors.button-text_color}};
+            --mediaKitButton: {{site.data.colors.media-kit.button_color}};
+            --mediaKitButtonHover: {{site.data.colors.media-kit.button-hover_color}};
             --navigationBackgroundColor: {{site.data.colors.navigation-colors.navigation-background_color}};
             --navigationArcheBackgroundColor: {{site.data.colors.navigation-colors.navigation-arche-background_color}};
             --footerBackgroundColor: {{site.data.colors.footer-colors.footer-background_color}};
@@ -111,7 +113,7 @@
             font-family: var(--textFont);}
 
           a {color: var(--links);}
-          a:hover {color: var(--linksHover)}
+          a:hover {color: var(--linksHover);}
 
           .hamburger_color {color: var(--hamburgerColor);}
 
@@ -137,6 +139,14 @@
             border: 1px solid var(--buttonColor);}
 
           .button-text_color: {color: var(buttonTextColor);}
+
+          .media-kit-button
+            {
+            background-color: transparent;
+            border: 1px solid var(--mediaKitButton);
+            }
+
+          .media-kit-button:hover {border: 1px solid var(--linksHover);}
 
           input:focus, textarea:focus, select:focus, option:focus {
             border-bottom: 2px solid var(--buttonColor);}
@@ -197,7 +207,7 @@
     </header>
 
     {{content}}
-    
+
     {% for item in page.content-blocks %}
     <div class="cms-editor-link" data-cms-editor-link="cloudcannon:#content-blocks[{{ forloop.index0 }}]">
         <span class="cms-editor-button"></span>

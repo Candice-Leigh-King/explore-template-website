@@ -87,6 +87,8 @@
             --formArcheBackgroundColor: #FAE6D4;
             --buttonColor: #CE967A;
             --buttonTextColor: #4c4c4c;
+            --mediaKitButton: #c3a496;
+            --mediaKitButtonHover: #FDFAF0;
             --navigationBackgroundColor: #FAE6D4;
             --navigationArcheBackgroundColor: #F8DCC2;
             --footerBackgroundColor: #F8DCC2;
@@ -111,7 +113,7 @@
             font-family: var(--textFont);}
 
           a {color: var(--links);}
-          a:hover {color: var(--linksHover)}
+          a:hover {color: var(--linksHover);}
 
           .hamburger_color {color: var(--hamburgerColor);}
 
@@ -137,6 +139,14 @@
             border: 1px solid var(--buttonColor);}
 
           .button-text_color: {color: var(buttonTextColor);}
+
+          .media-kit-button
+            {
+            background-color: transparent;
+            border: 1px solid var(--mediaKitButton);
+            }
+
+          .media-kit-button:hover {border: 1px solid var(--linksHover);}
 
           input:focus, textarea:focus, select:focus, option:focus {
             border-bottom: 2px solid var(--buttonColor);}
@@ -202,7 +212,7 @@
 
 </section>
 
-    
+
     
 
     <footer class="grid-center padded-top footer-background_color featured-bg">

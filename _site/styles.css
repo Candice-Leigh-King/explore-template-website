@@ -136,6 +136,7 @@ h1 {
 h2  { font-size: 2.2rem;  }
 h3  { font-size: 1.8rem;  }
 h4  { font-size: 1.4rem;  }
+h5  { font-size: 1.2rem;  }
 p   { font-size: 1rem;  }
 
 p, ul {
@@ -279,6 +280,15 @@ input[type=submit]
   border: 1px solid #CE967A;
   padding: .8rem 2rem .6rem;
   }
+
+.button
+  {
+  background-color: transparent;
+  border: 1px solid #c3a496;
+  padding: .8rem 2rem .6rem;
+  }
+
+.button:hover {border: 1px solid #FDFAF0;}  
 
 .button-solid:hover
   {
