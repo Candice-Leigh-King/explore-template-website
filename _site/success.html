@@ -66,8 +66,11 @@
             --hero: #FDFAF0;
             --heroFont: ;
             --headings: #CE967A;
+            --headingFont: ;
             --subheadings: #CE967A;
+            --subheadingFont: ;
             --text: #4c4c4c;
+            --textFont: ;
             --links: #c3a496;
             --linksHover: #FDFAF0;
             --hamburgerColor: #FDFAF0;
@@ -88,9 +91,20 @@
             color: var(--hero);
             font-family: var(--heroFont);
           }
-          h2 {color: var(--headings);}
-          h3, h4, h5, h6 {color: var(--subheadings);}
-          p {color: var(--text);}
+          h2 {
+            color: var(--headings);
+            font-family: var(--headingsFont);
+          }
+
+          h3, h4, h5, h6 {
+            color: var(--subheadings);
+            font-family: var(--subheadingsFont);
+          }
+
+          p {
+            color: var(--text);
+            font-family: var(--textFont);}
+            
           a {color: var(--links);}
           a:hover {color: var(--linksHover)}
 

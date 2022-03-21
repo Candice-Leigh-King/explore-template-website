@@ -74,7 +74,7 @@ _select_data:
       - Quicksand, sans-serif
       - Raleway, sans-serif
       - Roboto, sans-serif
-heading-font:
+headings-font:
 _select_data:
   fonts:
       - Amatic SC, cursive
@@ -88,7 +88,7 @@ _select_data:
       - Quicksand, sans-serif
       - Raleway, sans-serif
       - Roboto, sans-serif
-subheading-font:
+subheadings-font:
 _select_data:
   fonts:
       - Amatic SC, cursive

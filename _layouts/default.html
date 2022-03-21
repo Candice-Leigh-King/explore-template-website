@@ -66,8 +66,11 @@
             --hero: {{site.data.colors.text-colors.hero_color}};
             --heroFont: {{site.data.fonts.hero-font}};
             --headings: {{site.data.colors.text-colors.headings_color}};
+            --headingFont: {{site.data.fonts.headings-font}};
             --subheadings: {{site.data.colors.text-colors.subheadings_color}};
+            --subheadingFont: {{site.data.fonts.subheadings-font}};
             --text: {{site.data.colors.text-colors.text_color}};
+            --textFont: {{site.data.fonts.text-font}};
             --links: {{site.data.colors.text-colors.link_color}};
             --linksHover: {{site.data.colors.text-colors.links-hover_color}};
             --hamburgerColor: {{site.data.colors.text-colors.hamburger_color}};
@@ -88,9 +91,20 @@
             color: var(--hero);
             font-family: var(--heroFont);
           }
-          h2 {color: var(--headings);}
-          h3, h4, h5, h6 {color: var(--subheadings);}
-          p {color: var(--text);}
+          h2 {
+            color: var(--headings);
+            font-family: var(--headingsFont);
+          }
+
+          h3, h4, h5, h6 {
+            color: var(--subheadings);
+            font-family: var(--subheadingsFont);
+          }
+
+          p {
+            color: var(--text);
+            font-family: var(--textFont);}
+            
           a {color: var(--links);}
           a:hover {color: var(--linksHover)}
 
