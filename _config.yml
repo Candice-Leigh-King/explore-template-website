@@ -66,3 +66,53 @@ _select_data:
       - Amatic SC
       - Barlow Condensed
       - Belleza
+      - Kaushan Script
+      - Montserrat
+      - Oooh Baby
+      - Playfair Display
+      - Poppins
+      - Quicksand
+      - Raleway
+      - Roboto
+heading-font:
+_select_data:
+  fonts:
+      - Amatic SC
+      - Barlow Condensed
+      - Belleza
+      - Kaushan Script
+      - Montserrat
+      - Oooh Baby
+      - Playfair Display
+      - Poppins
+      - Quicksand
+      - Raleway
+      - Roboto
+sunheading-font:
+_select_data:
+  fonts:
+      - Amatic SC
+      - Barlow Condensed
+      - Belleza
+      - Kaushan Script
+      - Montserrat
+      - Oooh Baby
+      - Playfair Display
+      - Poppins
+      - Quicksand
+      - Raleway
+      - Roboto
+text-font:
+_select_data:
+  fonts:
+      - Amatic SC
+      - Barlow Condensed
+      - Belleza
+      - Kaushan Script
+      - Montserrat
+      - Oooh Baby
+      - Playfair Display
+      - Poppins
+      - Quicksand
+      - Raleway
+      - Roboto
