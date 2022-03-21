@@ -62,12 +62,7 @@ _array_structures:
             option-4:
 hero-font: Amatic SC
 _select_data:
-  hero-font:
-    type: select
-    option:
-      values:
-        - Amatic SC
-        - Barlow Condensed
-        - Belleza
-  subheading-font:
-  text-font:
+  fonts:
+      - Amatic SC
+      - Barlow Condensed
+      - Belleza
