@@ -60,9 +60,9 @@ _array_structures:
             option-2:
             option-3:
             option-4:
-hero-font: Amatic SC
+hero-font:
 _select_data:
-  fonts:
+  fonts: Poppins
       - Amatic SC
       - Barlow Condensed
       - Belleza
