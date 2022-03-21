@@ -62,7 +62,7 @@ _array_structures:
             option-4:
 hero-font:
 _select_data:
-  fonts: Poppins
+  fonts:
       - Amatic SC
       - Barlow Condensed
       - Belleza
