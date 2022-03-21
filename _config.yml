@@ -62,7 +62,6 @@ _array_structures:
             option-4:
 hero-font:
 _select_data:
-  fonts:
       - Amatic SC, cursive
       - Barlow Condensed, sans-serif
       - Belleza, sans-serif
@@ -76,7 +75,6 @@ _select_data:
       - Roboto, sans-serif
 heading-font:
 _select_data:
-  fonts:
       - Amatic SC, cursive
       - Barlow Condensed, sans-serif
       - Belleza, sans-serif
@@ -90,7 +88,6 @@ _select_data:
       - Roboto, sans-serif
 subheading-font:
 _select_data:
-  fonts:
       - Amatic SC, cursive
       - Barlow Condensed, sans-serif
       - Belleza, sans-serif
@@ -104,7 +101,6 @@ _select_data:
       - Roboto, sans-serif
 text-font:
 _select_data:
-  fonts:
       - Amatic SC, cursive
       - Barlow Condensed, sans-serif
       - Belleza, sans-serif
