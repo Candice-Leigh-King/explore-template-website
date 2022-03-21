@@ -60,3 +60,10 @@ _array_structures:
             option-2:
             option-3:
             option-4:
+_select_data:
+  hero-font:
+  - Amatic SC
+  - Barlow Condensed
+  - Belleza
+  subheading-font:
+  text-font:
