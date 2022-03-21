@@ -38,7 +38,7 @@ _array_structures:
           _section-type: carousel
           heading:
           carousel:
-            text:
+          - text:
             symbols:
             ending:
       - label: Form
