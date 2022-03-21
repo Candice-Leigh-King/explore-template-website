@@ -1,15 +1,15 @@
 hero-font:
-    - 'Amatic SC', cursive
-    - 'Barlow Condensed', sans-serif
-    - 'Belleza', sans-serif
-    - 'Kaushan Script', cursive
-    - 'Montserrat', sans-serif
-    - 'Oooh Baby', cursive
-    - 'Playfair Display', serif
-    - 'Poppins', sans-serif
-    - 'Quicksand', sans-serif
-    - 'Raleway', sans-serif
-    - 'Roboto', sans-serif
+    - Amatic SC, cursive
+    - Barlow Condensed, sans-serif
+    - Belleza, sans-serif
+    - Kaushan Script, cursive
+    - Montserrat, sans-serif
+    - Oooh Baby, cursive
+    - Playfair Display, serif
+    - Poppins, sans-serif
+    - Quicksand, sans-serif
+    - Raleway, sans-serif
+    - Roboto, sans-serif
 heading-font:
 subheading-font:
 text-font:
