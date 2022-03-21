@@ -14,7 +14,7 @@ _array_structures:
           _section-type: image-and-textarea
           image:
           heading:
-          text:
+          textarea:
       - label: Projects
         icon: work
         value:
@@ -23,22 +23,22 @@ _array_structures:
           first-project:
             image:
             subheading:
-            text:
+            textarea:
           second-project:
             image:
             subheading:
-            text:
+            textarea:
           third-project:
             image:
             subheading:
-            text:
+            textarea:
       - label: Carousel
         icon: money
         value:
           _section-type: carousel
           heading:
           carousel:
-          - text:
+          - textarea:
             symbols:
             ending:
       - label: Form
