@@ -221,6 +221,63 @@ p:last-child {
   max-width: 7rem;
 }
 
+/* on scroll */
+.reveal {
+position: relative;
+opacity: 0;
+transition: 3s all ease;
+}
+
+.reveal.active {
+opacity: 1;
+}
+/* ---------ANNIMATION--------- */
+.active.fade-up {animation: fade-up 1s ease-in;}
+
+@keyframes fade-up {
+  0%
+    {
+    transform: translateY(20px);
+    opacity: 0;
+    }
+  100%
+    {
+    transform: translateY(0);
+    opacity: 1;
+    }
+}
+
+
+.active.fade-left {animation: fade-left 1s ease-in;}
+
+@keyframes fade-left {
+  0%
+    {
+    transform: translateX(-50px);
+    opacity: 0;
+    }
+  100%
+    {
+    transform: translateX(0);
+    opacity: 1;
+    }
+}
+
+.active.fade-right {animation: fade-right 1s ease-in;}
+
+@keyframes fade-right {
+  0%
+    {
+    transform: translateX(50px);
+    opacity: 0;
+    }
+  100%
+    {
+    transform: translateX(0);
+    opacity: 1;
+    }
+}
+
 .textarea {
     min-height: 6rem;}
 
@@ -260,13 +317,7 @@ p:last-child {
 
 .input-label
   {
-  display: block;
-  position: absolute;
-  top: 0;
-  font-family: 'Poppins', sans-serif;
-  font-size: 1rem;
-  letter-spacing: 1px;
-  color: #5a5a5a;
+  display: none;
   }
 
 .input-text:placeholder-shown+.input-label
