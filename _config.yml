@@ -39,13 +39,13 @@ _array_structures:
         value:
           _section-type: carousel
           heading:
-          carousel:
-          - textarea:
-            symbols:
-            ending:
-          - link:
+          link:
             description:
             link:
+          carousel:
+            textarea:
+            symbols:
+            ending:
       - label: Form
         icon: article
         value:
