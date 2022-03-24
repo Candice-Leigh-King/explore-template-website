@@ -28,6 +28,9 @@ _array_structures:
         icon: work
         value:
           _section-type: projects
+          link:
+            description:
+            link:
           heading:
           first-project:
             image:
@@ -45,10 +48,10 @@ _array_structures:
         icon: money
         value:
           _section-type: carousel
-          heading:
           link:
             description:
             link:
+          heading:
           carousel:
             textarea:
             symbols:
@@ -57,6 +60,9 @@ _array_structures:
         icon: article
         value:
           _section-type: form
+          link:
+            description:
+            link:
           heading:
           link:
             description:
