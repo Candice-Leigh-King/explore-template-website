@@ -44,7 +44,7 @@ _array_structures:
             symbols:
             ending:
           - link:
-            description: If you would like that awesome scroll feature when someone clicks on a link in the navigation
+            description:
             link:
       - label: Form
         icon: article
