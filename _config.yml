@@ -6,31 +6,29 @@ _array_structures:
         icon: star
         value:
           _section-type: hero
-          link:
-            description: If you would like that awesome scroll feature that happens when someone clicks on a link in the navigation, then you'll need to add a page id. The page id can be added in the below box labeled "link". Your id is a short word describing the section it is leading to. For example- about.
-            link:
           hero_image:
           hero:
+          link:
+            description:  If you would like that awesome scroll feature that happens when someone clicks on a link in the navigation, then you'll need to add a page id. The page id can be added in the below box labeled "link". Your id is a short word describing the section it is leading to. For example- about.
+            If you don't want this section to link from the navigation, you can simply leave it out.
+            link:
       - label: Image and Textarea
         icon: image
         value:
           _section-type: image-and-textarea
-          link:
-            description: If you would like that awesome scroll feature that happens when someone clicks on a link in the navigation, then you'll need to add a page id. The page id can be added in the below box labeled "link". Your id is a short word describing the section it is leading to. For example- about.
-            link:
           image:
           tablet_images:
             top_image:
             bottom_image:
           heading:
           textarea:
+          link:
+            description:  If you would like that awesome scroll feature that happens when someone clicks on a link in the navigation, then you'll need to add a page id. The page id can be added in the below box labeled "link". Your id is a short word describing the section it is leading to. For example- about.
+            link:
       - label: Projects
         icon: work
         value:
           _section-type: projects
-          link:
-            description: If you would like that awesome scroll feature that happens when someone clicks on a link in the navigation, then you'll need to add a page id. The page id can be added in the below box labeled "link". Your id is a short word describing the section it is leading to. For example- about.
-            link:
           heading:
           first-project:
             image:
@@ -48,21 +46,18 @@ _array_structures:
         icon: money
         value:
           _section-type: carousel
-          link:
-            description: If you would like that awesome scroll feature that happens when someone clicks on a link in the navigation, then you'll need to add a page id. The page id can be added in the below box labeled "link". Your id is a short word describing the section it is leading to. For example- about.
-            link:
           heading:
           carousel:
             textarea:
             symbols:
             ending:
+          link:
+            description:  If you would like that awesome scroll feature that happens when someone clicks on a link in the navigation, then you'll need to add a page id. The page id can be added in the below box labeled "link". Your id is a short word describing the section it is leading to. For example- about.
+            link:
       - label: Form
         icon: article
         value:
           _section-type: form
-          link:
-            description:  If you would like that awesome scroll feature that happens when someone clicks on a link in the navigation, then you'll need to add a page id. The page id can be added in the below box labeled "link". Your id is a short word describing the section it is leading to. For example- about.
-            link:
           heading:
           top:
             vertical-subheading:
@@ -78,6 +73,9 @@ _array_structures:
             option-2:
             option-3:
             option-4:
+          link:
+            description:  If you would like that awesome scroll feature that happens when someone clicks on a link in the navigation, then you'll need to add a page id. The page id can be added in the below box labeled "link". Your id is a short word describing the section it is leading to. For example- about.
+            link:
 hero-font:
 _select_data:
   fonts:
