@@ -48,6 +48,7 @@ _array_structures:
         icon: money
         value:
           _section-type: carousel
+          background_image:
           heading:
           carousel:
             textarea:
