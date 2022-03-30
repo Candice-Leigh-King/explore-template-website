@@ -64,6 +64,7 @@ _array_structures:
         value:
           _section-type: form
           background_image:
+          arch-background_image:  
           heading:
           top:
             vertical-subheading:
