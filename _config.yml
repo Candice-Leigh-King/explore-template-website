@@ -81,7 +81,7 @@ _array_structures:
 hero-font:
 _select_data:
   fonts:
-      - Cyrene
+      - Cyrene, sans-serif
       - La Obrige
       - Lineal simples
       - Maglony
@@ -101,7 +101,7 @@ _select_data:
 headings-font:
 _select_data:
   fonts:
-      - Cyrene
+      - Cyrene, sans-serif
       - La Obrige
       - Lineal simples
       - Maglony
@@ -121,7 +121,7 @@ _select_data:
 subheadings-font:
 _select_data:
   fonts:
-      - Cyrene
+      - Cyrene, sans-serif
       - La Obrige
       - Lineal simples
       - Maglony
@@ -141,7 +141,7 @@ _select_data:
 text-font:
 _select_data:
   fonts:
-      - Cyrene
+      - Cyrene, sans-serif
       - La Obrige
       - Lineal simples
       - Maglony

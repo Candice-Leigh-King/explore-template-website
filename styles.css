@@ -25,7 +25,7 @@ font-family: 'Roboto', sans-serif; */
 
 
 @font-face {
-  font-family: Cyrene;
+  font-family: Cyrene, sans-serif;
   src: url(/fonts/cyrene.otf);
 }
 
