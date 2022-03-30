@@ -81,23 +81,25 @@ _array_structures:
 hero-font:
 _select_data:
   fonts:
-      - Cyrene
-      - La Obrige
-      - Lineal Simples
-      - Maglony
-      - Mak
-      - Misto
-      - Amatic SC, cursive
-      - Barlow Condensed, sans-serif
-      - Belleza, sans-serif
-      - Kaushan Script, cursive
-      - Montserrat, sans-serif
-      - Oooh Baby, cursive
-      - Playfair Display, serif
-      - Poppins, sans-serif
-      - Quicksand, sans-serif
-      - Raleway, sans-serif
-      - Roboto, sans-serif
+    - Cyrene
+    - La Obrige
+    - Lineal Simples
+    - Maglony
+    - Mak
+    - Misto
+    - Amatic SC, cursive
+    - Barlow Condensed, sans-serif
+    - Belleza, sans-serif
+    - Kaushan Script, cursive
+    - Montserrat, sans-serif
+    - Oooh Baby, cursive
+    - Playfair Display, serif
+    - Poppins, sans-serif
+    - Quicksand, sans-serif
+    - Raleway, sans-serif
+    - Roboto, sans-serif
+  hero-size_number: 3rem
+
 headings-font:
 _select_data:
   fonts:
