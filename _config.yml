@@ -81,12 +81,12 @@ _array_structures:
 hero-font:
 _select_data:
   fonts:
-      - Cyrene, sans-serif
-      - La Obrige, serif
-      - Lineal Simples, sans-serif
-      - Maglony, serif
-      - Mak, sans-serif
-      - Mistro, display
+      - Cyrene
+      - La Obrige
+      - Lineal Simples
+      - Maglony
+      - Mak
+      - Mistro
       - Amatic SC, cursive
       - Barlow Condensed, sans-serif
       - Belleza, sans-serif
@@ -101,12 +101,12 @@ _select_data:
 headings-font:
 _select_data:
   fonts:
-      - Cyrene, sans-serif
-      - La Obrige, serif
-      - Lineal Simples, sans-serif
-      - Maglony, serif
-      - Mak, sans-serif
-      - Mistro, display
+      - Cyrene
+      - La Obrige
+      - Lineal Simples
+      - Maglony
+      - Mak
+      - Mistro
       - Amatic SC, cursive
       - Barlow Condensed, sans-serif
       - Belleza, sans-serif
@@ -121,12 +121,12 @@ _select_data:
 subheadings-font:
 _select_data:
   fonts:
-      - Cyrene, sans-serif
-      - La Obrige, serif
-      - Lineal Simples, sans-serif
-      - Maglony, serif
-      - Mak, sans-serif
-      - Mistro, display
+      - Cyrene
+      - La Obrige
+      - Lineal Simples
+      - Maglony
+      - Mak
+      - Mistro
       - Amatic SC, cursive
       - Barlow Condensed, sans-serif
       - Belleza, sans-serif
@@ -141,12 +141,12 @@ _select_data:
 text-font:
 _select_data:
   fonts:
-      - Cyrene, sans-serif
-      - La Obrige, serif
-      - Lineal Simples, sans-serif
-      - Maglony, serif
-      - Mak, sans-serif
-      - Mistro, display
+      - Cyrene
+      - La Obrige
+      - Lineal Simples
+      - Maglony
+      - Mak
+      - Mistro
       - Amatic SC, cursive
       - Barlow Condensed, sans-serif
       - Belleza, sans-serif
