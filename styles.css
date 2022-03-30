@@ -30,23 +30,23 @@ font-family: 'Roboto', sans-serif; */
 }
 
 @font-face {
-  font-family: La Obrige;
+  font-family: La Obrige, serif;
   src: url(/fonts/la-obrige.otf);
 }
 @font-face {
-  font-family: Lineal Simples;
+  font-family: Lineal Simples, sans-serif;
   src: url(/fonts/lineal-simples.ttf);
 }
 @font-face {
-  font-family: Maglony;
+  font-family: Maglony, serif;
   src: url(/fonts/maglony.otf);
 }
 @font-face {
-  font-family: Mak;
+  font-family: Mak, sans-serif;
   src: url(/fonts/mak.otf);
 }
 @font-face {
-  font-family: Misto;
+  font-family: Misto, display;
   src: url(/fonts/misto.ttf);
 }
 
