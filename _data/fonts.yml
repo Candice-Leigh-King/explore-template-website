@@ -1,7 +1,6 @@
 hero-font:
   fonts: Mak
-  hero-size_number: 3rem
+  hero-size_number: 6
 headings-font: Cyrene
 subheadings-font: Cyrene
 text-font: Poppins, sans-serif
-hero-size_number: 6
