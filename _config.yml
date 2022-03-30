@@ -15,6 +15,7 @@ _array_structures:
         icon: image
         value:
           _section-type: image-and-textarea
+          background_image:
           image:
           tablet_images:
             top_image:
@@ -28,6 +29,7 @@ _array_structures:
         icon: work
         value:
           _section-type: projects
+          background_image:
           heading:
           first-project:
             image:
@@ -61,6 +63,7 @@ _array_structures:
         icon: article
         value:
           _section-type: form
+          background_image:
           heading:
           top:
             vertical-subheading:
