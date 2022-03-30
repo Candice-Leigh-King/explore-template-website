@@ -1,14 +1,14 @@
 hero-font:
   fonts: Mak
   hero-size_number:
-order: 12 
-_inputs:
-  order:
-    type: range
-    options:
-      step: 2
-      max: 20
-      min: 0
+    order: 12
+    _inputs:
+      order:
+        type: range
+        options:
+          step: 2
+          max: 20
+          min: 0
 headings-font: Cyrene
 subheadings-font: Cyrene
 text-font: Poppins, sans-serif
