@@ -64,7 +64,7 @@ _array_structures:
         value:
           _section-type: form
           background_image:
-          arch-background_image:  
+          arch-background_image:
           heading:
           top:
             vertical-subheading:
@@ -92,6 +92,7 @@ _select_data:
     - Maglony
     - Mak
     - Misto
+    - Dream Avenue
     - Amatic SC, cursive
     - Barlow Condensed, sans-serif
     - Belleza, sans-serif
@@ -112,6 +113,7 @@ _select_data:
       - Maglony
       - Mak
       - Misto
+      - Dream Avenue
       - Amatic SC, cursive
       - Barlow Condensed, sans-serif
       - Belleza, sans-serif
@@ -132,6 +134,7 @@ _select_data:
       - Maglony
       - Mak
       - Misto
+      - Dream Avenue
       - Amatic SC, cursive
       - Barlow Condensed, sans-serif
       - Belleza, sans-serif
@@ -152,6 +155,7 @@ _select_data:
       - Maglony
       - Mak
       - Misto
+      - Dream Avenue  
       - Amatic SC, cursive
       - Barlow Condensed, sans-serif
       - Belleza, sans-serif

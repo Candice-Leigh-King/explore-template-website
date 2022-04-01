@@ -121,6 +121,7 @@ overflow-x: hidden;
 .bottom-radius
 {border-radius: 0px 0px 310px 310px;}
 .circle {border-radius: 500px;}
+.border {border: solid 1px #CE967A;}
 
 .medium-image
   {
