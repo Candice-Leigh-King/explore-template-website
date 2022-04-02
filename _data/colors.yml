@@ -20,10 +20,11 @@ navigation-colors:
   navigation-background_color: '#fae6d4'
   navigation-arche-background_color: '#f8dcc2'
   navigation-background_image:
-  navigation-arch-background_image: 
+  navigation-arch-background_image:
 footer-colors:
   footer-background_color: '#F8DCC2'
   social-icons_color: '#FAE6D4'
+  social-icons-inner_color: '#F8DCC2'
 media-kit:
   button_color: '#c3a496'
   button-hover_color: '#FDFAF0'

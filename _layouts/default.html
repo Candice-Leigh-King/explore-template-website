@@ -94,6 +94,7 @@
             --navigationArcheBackgroundColor: {{site.data.colors.navigation-colors.navigation-arche-background_color}};
             --footerBackgroundColor: {{site.data.colors.footer-colors.footer-background_color}};
             --socialIconsColor: {{site.data.colors.footer-colors.social-icons_color}};
+            --iconColor: {{site.data.colors.footer-colors.social-icons-inner_color}};
           }
           h1 {
             color: var(--hero);
@@ -160,11 +161,13 @@
 
           .footer-background_color {background-color: var(--footerBackgroundColor);}
           .social-icons_color a {
+            color: var(--iconColor);
             background-color: var(--socialIconsColor);
             border: solid var(--socialIconsColor);}
           .built p {color: var(--links);}
 
-          .social-icons_color a:hover{  color: var(--socialIconsColor);
+          .social-icons_color a:hover{
+            color: var(--socialIconsColor);
             background-color: transparent;
             border: solid var(--socialIconsColor);}
           </style>
