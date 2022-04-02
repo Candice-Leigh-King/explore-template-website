@@ -12,10 +12,10 @@ background-colors:
   projects-text-background_color: '#FAE6D4'
   carousel-background_color: '#F8DCC2'
 form-colors:
-  form-background_color: '#F8DCC2'
-  form-arche-background_color: '#FAE6D4'
-  form-text_color: '#CE967A'
-  button_color: '#CE967A'
+  form-background_color: '#f8dcc2'
+  form-arche-background_color: '#fae6d4'
+  form-text_color: '#7c7a79'
+  button_color: '#ce967a'
   button-text_color: '#4c4c4c'
 navigation-colors:
   navigation-background_color: '#fae6d4'
