@@ -142,12 +142,30 @@
             textarea::placeholder {color: var(--formTextColor);}
             input, select, option, textarea {color: var(--formTextColor);}
 
-            input:focus, textarea:focus, select:focus, option:focus
+          .button_color {
+            background-color: var(--buttonColor);
+            border: 1px solid var(--buttonColor);}
+
+          .button_color:hover {
+            background-color: transparent;
+            color: var(--buttonColor);
+            border: 1px solid var(--buttonColor);}
+
+          .button-text_color: {color: var(buttonTextColor);}
+
+          .media-kit-button
             {
-            border-bottom: 2px solid var(--buttonColor);
+            background-color: transparent;
+            border: 1px solid var(--mediaKitButton);
             }
 
-            .input-text:focus   {border-bottom: 2px solid var(--buttonColor);}
+          .media-kit-button:hover {border: 1px solid var(--linksHover);}
+
+          input:focus, textarea:focus, select:focus, option:focus
+          {
+          border-bottom: 2px solid var(--buttonColor);
+          }
+          .input-text:focus   {border-bottom: 2px solid var(--buttonColor);}
 
           .button_color {
             background-color: var(--buttonColor);
